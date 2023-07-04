@@ -1,0 +1,203 @@
+
+.bases-fundo {
+    background: var(--cor-fundo-base);
+    padding: 2em 0;
+}
+
+/* BASE1*/
+
+.base1 {
+    background-image: url(./img/arvores-escuras.jpg);
+    background-attachment: fixed;
+}
+
+.bem-vindo {
+    display: flex;
+    height: 60vh;
+    background: linear-gradient(180deg, #00000000, rgba(0, 0, 0, 0.288), rgb(0, 0, 0));;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.bem-vindo h1 {
+    font-size: 3em;
+    font-weight: 700;
+    color: var(--cor-texto);
+    margin: 0 0 3em 0;
+    text-align: center;
+}
+
+.prefacio {
+    width: 70%;
+    color: var(--cor-texto2);
+    font-size: 1.5em;
+    text-align: center;
+    margin: 1em auto 0;
+    padding: 1em 0 0;
+    background: var(--fundo-caixa);
+    border-radius: 5px 5px 0 0;
+}
+
+.lista-prefacio {
+    background: var(--fundo-caixa);
+    display: flex;
+    width: 70%;
+    margin: 0 auto 5em;
+    justify-content: space-evenly;
+    border-radius: 0 0 5px 5px;
+}
+
+.lista-prefacio li {
+    color: var(--cor-texto2);
+    padding: 1em 0 ;
+    font-size: 1.4em;
+    cursor: context-menu;
+}
+
+hr {
+    margin: 0.5em 0 0;
+}
+
+
+/* BASE2 */
+
+.base2 {
+    background-image: url(./img/arvores-e-folhas.jpg);
+    background-attachment: fixed;
+}
+
+.lista {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.itens {
+    color: var(--cor-texto);
+    font-size: 1.4em;
+    font-weight: 400;
+    padding: 1em 0;
+}
+
+.agua:before {
+    content: "💦";
+    color: aqua;
+}
+
+.luz:before {
+    content: "💡";
+    color: gold;
+}
+
+.meio-ambiente:before {
+    content: "🌿";
+    color: chartreuse;
+}
+
+.video {
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+/* BASE3*/
+
+.base3 {
+    background-image: url(./img/debaixo-das-arvores.jpg);
+    background-attachment: fixed;
+}
+
+.campanha:before {
+    content: "✅";
+    color: chartreuse;
+}
+
+
+/* BASE4 */
+
+.base4 {
+    background-image: url(./img/lago-na-floresta.jpg);
+    background-attachment: fixed;
+}
+
+.container-contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(0, 36, 114, 0.336);
+    border: solid 0.2em rgb(0, 61, 173);
+    border-radius: 8px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.titulo-contato {
+    color: #f5f5f5;
+    font-size: 2.3em;
+    margin: 1.5em;
+    font-weight: 700;
+}
+
+.container-contato form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.container-contato label {
+    color: var(--cor-texto);
+    font-size: 1.4em;
+    margin-bottom: 0.2em;
+}
+
+.container-contato input {
+    padding: 1.2em;
+    outline: none;
+    border: 0;
+    margin: 0 0 1.8em;
+    font-size: 1em;
+    transition:  all 0.5s;
+    border-radius: 20px;
+}
+
+.container-contato input:focus {
+    border-radius: 4px;
+}
+
+.container-contato textarea {
+    padding: 1em;
+    outline: none;
+    border: 0;
+    font-size: 1.4em;
+    margin: 0 0 2em;
+    transition: all 0.5s;
+    border-radius: 20px;
+}
+
+.container-contato textarea:focus {
+    border-radius: 4px;
+}
+
+.container-contato button {
+    padding: 1em;
+    cursor: pointer;
+    font-size: 1em;
+    background: var(--fundo-caixa);
+    border: 2px solid #f5f5f5;
+    border-radius: 20px;
+    color: var(--cor-texto2);
+    transition: all 1s;
+    margin-bottom: 20px;
+}
+
+.container-contato button:hover {
+    background: rgba(0, 0, 0, 0.233);
+    color: var(--cor-texto);
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 600px) {
+    .container-contato {
+        width: 90%;
+    }
+}
