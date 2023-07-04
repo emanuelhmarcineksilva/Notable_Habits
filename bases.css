@@ -7,7 +7,7 @@
 /* BASE1*/
 
 .base1 {
-    background-image: url(./img/arvores-escuras.jpg);
+    background-image: url(arvores-escuras.jpg);
     background-attachment: fixed;
 }
 
@@ -62,7 +62,7 @@ hr {
 /* BASE2 */
 
 .base2 {
-    background-image: url(./img/arvores-e-folhas.jpg);
+    background-image: url(arvores-e-folhas.jpg);
     background-attachment: fixed;
 }
 
@@ -102,7 +102,7 @@ hr {
 /* BASE3*/
 
 .base3 {
-    background-image: url(./img/debaixo-das-arvores.jpg);
+    background-image: url(debaixo-das-arvores.jpg);
     background-attachment: fixed;
 }
 
@@ -115,7 +115,7 @@ hr {
 /* BASE4 */
 
 .base4 {
-    background-image: url(./img/lago-na-floresta.jpg);
+    background-image: url(lago-na-floresta.jpg);
     background-attachment: fixed;
 }
 
